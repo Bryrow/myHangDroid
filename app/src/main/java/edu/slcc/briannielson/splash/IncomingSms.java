@@ -36,7 +36,7 @@ public class IncomingSms extends BroadcastReceiver {
                     String phoneNumber = currentMessage.getDisplayOriginatingAddress();
 
                     // String senderNum = phoneNumber;
-                    String message = currentMessage.getDisplayMessageBody();
+                    String message = currentMessage.getDisplayMessageBody().toLowerCase();
 
                     Log.d("MYLOG", "phone: " + phoneNumber + "; message: " + message);
 
