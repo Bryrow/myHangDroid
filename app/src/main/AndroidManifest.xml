@@ -8,7 +8,7 @@
     <uses-permission android:name="android.permission.send_sms" />
 
     <!-- Request permission to read ContactsActivity Provider -->
-    <uses-permission android:name="android.permission.read_contacts" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
 
     <application
         android:allowBackup="true"
