@@ -29,10 +29,10 @@ public class ContactsActivity extends ListActivity {
         cursor = getContentResolver().query(ContactsContract.CommonDataKinds.Phone.CONTENT_URI, null, null, null, null);
         startManagingCursor(cursor); // Replace by CursorLoader for async loading.
 
-        final String [] Texter = {ContactsContract.CommonDataKinds.Phone.DISPLAY_NAME, ContactsContract.CommonDataKinds.Phone.NUMBER};
+        final String[] Texter = {ContactsContract.CommonDataKinds.Phone.DISPLAY_NAME, ContactsContract.CommonDataKinds.Phone.NUMBER};
 
         // item is the combined layouts of text1 and text2
-        int [] item = {android.R.id.text1, android.R.id.text2};
+        int[] item = {android.R.id.text1, android.R.id.text2};
 
         SimpleCursorAdapter listadapter = new SimpleCursorAdapter(this, android.R.layout.simple_list_item_2, cursor, Texter, item, 0);
 
@@ -81,7 +81,7 @@ public class ContactsActivity extends ListActivity {
     @Override
     protected void onListItemClick(ListView l, View v, int position, long id) {
         Log.d("MYLOG", "onListItemClick");
-        super.onListItemClick(l, v,position, id);
+        super.onListItemClick(l, v, position, id);
     }
 
     @Override

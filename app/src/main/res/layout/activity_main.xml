@@ -32,22 +32,22 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="12dp"
-            android:onClick="startSinglePlayer"
-            android:text="Single Player"
             android:background="@drawable/button_style"
+            android:onClick="startSinglePlayer"
             android:paddingLeft="5dp"
-            android:paddingRight="5dp" />
+            android:paddingRight="5dp"
+            android:text="Single Player" />
 
         <Button
             android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="12dp"
-            android:onClick="startMultiPlayer"
-            android:text="Multi-Player"
             android:background="@drawable/button_style"
+            android:onClick="startMultiPlayer"
             android:paddingLeft="5dp"
-            android:paddingRight="5dp" />
+            android:paddingRight="5dp"
+            android:text="Multi-Player" />
 
         <Button
             android:id="@+id/button4"
@@ -55,30 +55,30 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="12dp"
             android:background="@drawable/button_style"
-            android:text="Text Player"
             android:onClick="startTextPlayerGame"
             android:paddingLeft="5dp"
-            android:paddingRight="5dp"/>
+            android:paddingRight="5dp"
+            android:text="Text Player" />
 
         <Button
             android:id="@+id/button3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="12dp"
+            android:background="@drawable/button_style"
             android:onClick="openScores"
-            android:text="Scores"
-            android:background="@drawable/button_style" />
+            android:text="Scores" />
 
         <Button
             android:id="@+id/button5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="12dp"
-            android:onClick="viewContacts"
-            android:text="Contacts"
             android:background="@drawable/button_style"
+            android:onClick="viewContacts"
             android:paddingLeft="5dp"
-            android:paddingRight="5dp" />
+            android:paddingRight="5dp"
+            android:text="Contacts" />
 
     </LinearLayout>
 

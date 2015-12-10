@@ -1,4 +1,4 @@
- package edu.slcc.briannielson.splash;
+package edu.slcc.briannielson.splash;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -10,7 +10,7 @@ import android.telephony.SmsMessage;
 import android.util.Log;
 import android.widget.Toast;
 
- public class IncomingSms extends BroadcastReceiver {
+public class IncomingSms extends BroadcastReceiver {
 //    public IncomingSms() {
 //    }
 
@@ -26,7 +26,7 @@ import android.widget.Toast;
             if (bundle != null) {
                 Log.d("MYLOG", "Bundle: " + bundle);
                 // Get pdu from bundle
-                final Object [] pdus = (Object[]) bundle.get("pdus");
+                final Object[] pdus = (Object[]) bundle.get("pdus");
                 // Get format of bundle
                 String format = bundle.getString("format");
 

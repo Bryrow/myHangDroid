@@ -27,7 +27,7 @@ public class TextActivity extends AppCompatActivity {
     private String friendPhone;
     private String texterPhone;
 
-    String [] GAMETYPE = {"Single Player", "Multi-Player", "Text-Player"};
+    String[] GAMETYPE = {"Single Player", "Multi-Player", "Text-Player"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -121,7 +121,7 @@ public class TextActivity extends AppCompatActivity {
             Intent intent = new Intent(this, GameMultiActivity.class);
             // Send word with intent
 //            intent.putExtra("GuessID", textWord);
-             intent.putExtra("GUESS_WORD", textWord);
+            intent.putExtra("GUESS_WORD", textWord);
 
             // Start activity
             startActivity(intent);
@@ -141,7 +141,7 @@ public class TextActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
 
-        switch(item.getItemId()){
+        switch (item.getItemId()) {
             case R.id.action_new:
                 AlertDialog.Builder myAlert = new AlertDialog.Builder(TextActivity.this);
                 myAlert.setTitle("Choose Game");
