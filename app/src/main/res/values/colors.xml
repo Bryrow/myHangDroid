@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="title_grey">#FF4C4C4C</color>
+    <color name="title_blue">#FF1EBAFF</color>
+    <color name="guessed_letters_red">#FFFF0000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="splash_darkgray">#333333</color>
+    <color name="cyan">#00FFFF</color>
+</resources>
