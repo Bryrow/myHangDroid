@@ -20,12 +20,22 @@
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="75dp"
+            android:layout_marginBottom="10dp"
             android:phoneNumber="true"
             android:text="Hang Droid"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:textColor="@color/title_blue"
             android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/creatorName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:text="Brian Nielson"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/title_blue"
+            android:textSize="20dp"/>
 
         <Button
             android:id="@+id/button"
